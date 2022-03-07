@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  padding: 60px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+form {
+  padding-bottom: 10px
+}
+
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.elementSelection {
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  height: 1.2em;
+}
+
+.eComboBox {
+  margin-top: 5%;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
 }
