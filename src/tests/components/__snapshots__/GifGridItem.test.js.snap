@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem />> debe de mostrar <GifGridItem /> correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadein"
+>
+  <img
+    alt="saitama GIF"
+    src="https://media1.giphy.com/media/yo3TC0yeHd53G/giphy.gif?cid=11889665o4rvrqhjl7ij3lcdwo6p7mpw3d3brn24hgdxmkv4&rid=giphy.gif&ct=g"
+  />
+  <p>
+    saitama GIF
+  </p>
+</div>
+`;

@@ -5,9 +5,9 @@ import AddCategory from './components/AddCategory';
 import SetElements from './components/SetElements';
 import { GifGrid } from './components/GifGrid';
 
-const GifExpertApp = () => {
+const GifExpertApp = ({ defaultCategory = []}) => {
 
-    const [categories, setCategories ] = useState([]); 
+    const [categories, setCategories ] = useState(defaultCategory); 
     const [elements, setElements ] = useState(10); 
 
     return (<> 

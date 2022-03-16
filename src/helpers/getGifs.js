@@ -1,4 +1,4 @@
-export const getGifs = async( category, elements ) => {
+export const getGifs = async( category, elements=10 ) => {
 
 	const url = `https://api.giphy.com/v1/gifs/search?api_key=DsI93Rf8tEBFrO4uxmVfi1iyiw98q8UO&q=${ encodeURI(category) }&limit=${elements}`;
 
@@ -15,3 +15,6 @@ export const getGifs = async( category, elements ) => {
 
 	return gifs;
   }
+
+
+  export default getGifs;
